@@ -1,0 +1,25 @@
+footer {
+  margin: 1rem auto;
+}
+footer p {
+  margin: 0;
+  font-weight: 100;
+  font-size: 1.2rem;
+  font-family: migra;
+}
+footer a {
+  width: fit-content;
+}
+footer a:hover {
+  text-decoration: none;
+}
+
+#website-src {
+  margin: 5px auto 0 auto;
+  width: fit-content;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+#website-src:hover {
+  color: #f3dbc7;
+}

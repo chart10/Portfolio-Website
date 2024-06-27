@@ -1,0 +1,36 @@
+nav {
+  position: fixed;
+  top: 0;
+  height: 4rem;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+
+  backdrop-filter: blur(4px);
+}
+.navbar-menu {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5eee684;
+}
+.site-links {
+  display: flex;
+}
+.site-links a {
+  padding: 1rem;
+  padding-right: 0;
+  text-shadow: 1px 1px 1px #131313, 0 0 6px #131313;
+}
+#navbar-name {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 20px;
+}

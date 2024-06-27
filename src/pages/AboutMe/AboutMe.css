@@ -1,0 +1,33 @@
+#about-me-heading {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+#about-me-title {
+  margin-bottom: -1.15rem;
+  line-height: 1;
+}
+#about-me-subtitle {
+  margin-top: 16px;
+  padding-right: 8px;
+  font-family: migra;
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: right;
+}
+#about-me-text {
+  margin: 0 3rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 2px;
+  padding: 2rem;
+  padding-top: 0;
+  text-align: left;
+  font-size: 20px;
+}
+@media screen and (max-width: 697px) {
+  #about-me-subtitle {
+    text-align: center;
+  }
+}
